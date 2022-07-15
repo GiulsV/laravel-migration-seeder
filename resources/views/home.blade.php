@@ -7,6 +7,8 @@
     <title>Travel</title>
 </head>
 <body>
-    <h1>Prova home</h1>
+    @foreach($trains as $train)
+    <p>{{$train['Azienda']}}</p>
+    @endforeach
 </body>
 </html>
